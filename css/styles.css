@@ -1,0 +1,133 @@
+/*	Stylesheet for book lists*/
+
+
+/*Responsively change font sizes*/
+@media all {html {font-size: 22px;}}
+@media all and (max-width:1000px){html {font-size: 21px;}}
+@media all and (max-width:960px){html {font-size: 20px;}}
+@media all and (max-width:920px){html {font-size: 19px;}}
+@media all and (max-width:880px){html {font-size: 18px;}}
+@media all and (max-width:840px){html {font-size: 17px;}}
+@media all and (max-width:800px){html {font-size: 16px;}}
+@media all and (max-width:760px){html {font-size: 15px;}}
+@media all and (max-width:720px){html {font-size: 14px;}}
+@media all and (max-width:680px){html {font-size: 13px;}}
+@media all and (max-width:640px){html {font-size: 12px;}}
+@media all and (max-width:600px){html {font-size: 12px;}}
+@media all and (max-width:560px){html {font-size: 12px;}}
+@media all and (max-width:520px){html {font-size: 12px;}}
+
+
+/*Basic descriptions*/
+html {
+	font-family: charter;
+}
+
+img {
+	display: block;
+	width: 7rem;
+	padding-left: 2rem;
+	padding-bottom: 3rem;
+}
+
+body {
+	margin: 0;
+	max-width: 1000px;
+	display: block;
+	padding-left: 3rem;
+	padding-top: 2rem;
+}
+
+/*Person block is left column, content block is right*/
+.personBlock {
+	display: block;
+	float: left;
+	position: absolute;
+	left: 5rem;
+	width: 7rem;
+	text-align: right;
+}
+
+.contentBlock {
+	margin-left: 12rem;
+	margin-right: 0rem;
+}
+
+person {
+	font-size: 120%;
+	display: block;
+	font-weight: bold;
+}
+
+/*Person Block CSS*/
+bio {
+	display: block;
+	font-size: 75%;
+	hyphens:auto;
+}
+
+
+/*Content Block CSS*/
+.basicInfo {
+	clear:both;
+	width: 60%;
+	display: block;
+	float:left;
+	padding-right:0.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.additionalInfo {
+	width: 30%;
+	display: block;
+	float:left;
+	padding-left: 0.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.bookTitle {
+	font-weight: bold;
+	color: rgba(155, 88, 88, 1);
+}
+
+.bookAuthor {
+	font-size: 80%;
+	color: rgba(155, 88, 88, 1);
+}
+
+.bookDescription {
+	padding-top: 0.4rem;
+	font-size: 60%;
+	line-height: 150%;
+}
+
+.additionalTopic {
+	font-size: 80%;
+	font-variant: small-caps
+}
+
+.topicContent {
+	font-size: 60%;
+	padding-left: 0.3rem;
+	padding-bottom: 0.4rem;
+	line-height: 120%;
+}
+
+
+/*General CSS for links*/
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: rgba(155, 88, 88, 1);
+}
+
+a:active {
+    color: #000000;
+}

@@ -1,0 +1,1 @@
+Recommender	Category	Bio	WikiLink	ImageLink	OriginalListSourceAlan Kay	tech	Personal computer pioneer: creator of object-oriented programming and modern graphical user interface	https://en.wikipedia.org/wiki/Alan_Kay		Neil deGrasse Tyson	science	"An American astrophysicist, cosmologist, author, and science communicator."	https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson		

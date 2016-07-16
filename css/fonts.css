@@ -1,0 +1,27 @@
+/*	Stylesheet dictating fonts*/
+
+/*Font Definitions*/
+
+@font-face {
+    font-family: "charter";
+    src: url("./CharterRegular.ttf");
+}
+
+@font-face {
+    font-family: "charter";
+    src: url("./CharterBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "charter";
+    src: url("./CharterItalic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "charter";
+    src: url("./CharterBoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
